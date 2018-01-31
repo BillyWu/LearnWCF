@@ -46,6 +46,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ICalculator.cs" />
+    <Compile Include="IMath.cs" />
+    <Compile Include="MathService.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Service1.cs">
       <SubType>Component</SubType>
