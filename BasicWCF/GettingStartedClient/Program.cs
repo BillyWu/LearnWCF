@@ -41,6 +41,9 @@ namespace GettingStartedClient
 
             //Step 3: Closing the client gracefully closes the connection and cleans up resources.  
             client.Close();
+
+            Console.WriteLine("Enter to exit");
+            Console.ReadLine();
         }
     }
 }
